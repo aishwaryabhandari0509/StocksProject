@@ -1,0 +1,5 @@
+a=df['Company Name']
+b=df['Last Price']
+c=df['% Chg']
+f=df['52 wk Low']
+e=df['Market Cap(Rs. Cr)']
