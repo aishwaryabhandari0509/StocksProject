@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv(r"C:\Users\mahes\Desktop\Stocks.csv")
+plt.bar(a,c,color='c')
+plt.title('Top 15 companies % change in stock market')
+plt.xlabel('Company Name')
+plt.ylabel('% Chg')
+plt.show()
