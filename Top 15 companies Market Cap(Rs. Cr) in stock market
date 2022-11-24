@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv(r"C:\Users\mahes\Desktop\Stocks.csv")
+plt.plot(a,e,marker='*',color='yellow')
+plt.title('Top 15 companies Market Cap(Rs. Cr) in stock market')
+plt.xlabel('Company Name')
+plt.ylabel('Market Cap(Rs. Cr)')
+plt.show()
