@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df=pd.read_csv(r"C:\Users\mahes\Desktop\Stocks.csv")
+plt.plot(a,f,color='m')
+plt.title('Top 15 companies 52 wk Low in stock market')
+plt.xlabel('Company Name')
+plt.ylabel('52 wk Low')
+plt.show()
